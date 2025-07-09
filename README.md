@@ -1,5 +1,7 @@
 # Fineweb-zhtw
 
+Most of this code is based on [Datatrove](https://github.com/huggingface/datatrove) and is licensed under the Apache 2.0 License.
+
 ## Installation
 Clone repo with submodules
 ```bash
@@ -12,7 +14,10 @@ pip install -r requirements.txt
 ```
 
 ## To Run
+
 prepare data for pipeline demonstration (download 2 WARC files)
+⚠️ **Warning:** This download utilizes data from Common Crawl. Please review the [Common Crawl Terms of Use](https://commoncrawl.org/terms-of-use) before proceeding.
+
 ```bash
 bash scripts/get_data_example.sh
 ```
@@ -33,6 +38,14 @@ If you like our work, please cite
       archivePrefix={arXiv},
       primaryClass={cs.CL},
       url={https://arxiv.org/abs/2411.16387}, 
+}
+@misc{penedo2024datatrove,
+  author = {Penedo, Guilherme and Kydlíček, Hynek and Cappelli, Alessandro and Sasko, Mario and Wolf, Thomas},
+  title = {DataTrove: large scale data processing},
+  year = {2024},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  url = {https://github.com/huggingface/datatrove}
 }
 ```
 
